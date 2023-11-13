@@ -1,0 +1,9 @@
+{
+	"name": "F1Prod",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ef4f1af3-30fb-4314-b382-f972fc9895ba",
+		"tenantId": "761c8eba-9781-4404-b36d-63d4b9354940"
+	}
+}
