@@ -9,11 +9,11 @@ v_file_date = dbutils.widgets.get("p_file_date")
 
 # COMMAND ----------
 
-# MAGIC %run "../includes/common_functions"
+# MAGIC %run "../Includes/common_functions"
 
 # COMMAND ----------
 
-# MAGIC %run "../includes/configuration"
+# MAGIC %run "../Includes/configuration"
 
 # COMMAND ----------
 

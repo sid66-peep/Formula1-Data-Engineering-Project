@@ -1,8 +1,8 @@
 # Databricks notebook source
-storage_account_name = "formula1dl"
-client_id            = dbutils.secrets.get(scope="formula1-scope", key="databricks-app-client-id")
-tenant_id            = dbutils.secrets.get(scope="formula1-scope", key="databricks-app-tenant-id")
-client_secret        = dbutils.secrets.get(scope="formula1-scope", key="databricks-app-client-secret")
+storage_account_name = "formula1learning"
+client_id            = dbutils.secrets.get(scope="Formula1-scope", key="f1learning-client-id-SAS")
+tenant_id            = dbutils.secrets.get(scope="Formula1-scope", key="f1learning-tenant-id-SAS")
+client_secret        = dbutils.secrets.get(scope="Formula1-scope", key="f1learning-client-secret-SAS")
 
 # COMMAND ----------
 
@@ -35,6 +35,11 @@ mount_adls("presentation")
 # COMMAND ----------
 
 mount_adls("demo")
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC #### Unmount will literally unmount the paths
 
 # COMMAND ----------
 
